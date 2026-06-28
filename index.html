@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Финансовый анализ продавцов Wildberries</title>
+  <meta name="description" content="Финансовый анализ продавцов Wildberries: прибыльность по SKU, комиссии, логистика, реклама, остатки и рекомендации для роста прибыли.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Основная навигация">
+      <a class="logo" href="#top" aria-label="На главную">
+        <span class="logo-mark">WB</span>
+        <span>Fin.Analytics</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#analysis">Что анализируем</a></li>
+        <li><a href="#result">Результат</a></li>
+        <li><a href="#process">Процесс</a></li>
+        <li><a href="#contact">Заявка</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Финансы для продавцов Wildberries</p>
+          <h1>Покажем, сколько вы действительно зарабатываете на WB</h1>
+          <p class="hero-text">Разберём комиссии, логистику, рекламу, возвраты, остатки и прибыльность по SKU. Вы получите понятную финансовую картину и конкретный план действий.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Получить анализ</a>
+            <a class="button button-secondary" href="#analysis">Что входит в анализ</a>
+          </div>
+          <div class="hero-stats" aria-label="Ключевые преимущества">
+            <div><strong>SKU</strong><span>прибыльность по каждому товару</span></div>
+            <div><strong>₽</strong><span>поиск скрытых потерь</span></div>
+            <div><strong>30 дней</strong><span>план улучшений</span></div>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Пример аналитической панели">
+          <div class="dashboard-card">
+            <div class="card-header">
+              <span>Финансовая сводка</span>
+              <span class="status-dot">●</span>
+            </div>
+            <div class="metric-row">
+              <span>Маржинальность</span>
+              <strong>24,8%</strong>
+            </div>
+            <div class="metric-row warning">
+              <span>Утечки в расходах</span>
+              <strong>−186 000 ₽</strong>
+            </div>
+            <div class="chart-bars" aria-hidden="true">
+              <span style="height: 42%"></span>
+              <span style="height: 68%"></span>
+              <span style="height: 54%"></span>
+              <span style="height: 82%"></span>
+              <span style="height: 61%"></span>
+              <span style="height: 90%"></span>
+            </div>
+            <div class="insight-box">
+              <strong>Вывод:</strong> 17 SKU требуют пересмотра цены, рекламы или поставок.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Для кого</p>
+          <h2>Подходит селлерам, которые хотят управлять прибылью, а не только оборотом</h2>
+        </div>
+        <div class="cards four-columns">
+          <article class="card"><h3>Нет ясности по прибыли</h3><p>Оборот есть, но непонятно, сколько остаётся после всех расходов WB.</p></article>
+          <article class="card"><h3>Много SKU</h3><p>Сложно вручную отслеживать прибыльность каждого товара и размера.</p></article>
+          <article class="card"><h3>Растёт реклама</h3><p>Нужно понять, какие кампании помогают, а какие съедают маржу.</p></article>
+          <article class="card"><h3>Планируется рост</h3><p>Перед масштабированием важно увидеть экономику и слабые места.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="analysis">
+      <div class="container split-grid">
+        <div class="section-heading align-left">
+          <p class="eyebrow">Что анализируем</p>
+          <h2>Собираем полную картину расходов и прибыли на Wildberries</h2>
+          <p>Смотрим не только продажи, но и все факторы, которые влияют на итоговый финансовый результат.</p>
+        </div>
+        <div class="check-list">
+          <div>Выручка, себестоимость и валовая прибыль</div>
+          <div>Комиссии Wildberries, логистика и хранение</div>
+          <div>Штрафы, возвраты, выкупы и скрытые расходы</div>
+          <div>Рекламные расходы и влияние на маржу</div>
+          <div>Остатки, оборачиваемость и замороженные деньги</div>
+          <div>Прибыльность по SKU и точки утечки денег</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-accent" id="result">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Что вы получите</p>
+          <h2>Практический отчёт, с которым можно принимать решения</h2>
+        </div>
+        <div class="result-grid">
+          <article class="result-card"><span>01</span><h3>Финансовая модель</h3><p>Таблица с расчётом прибыли, расходов и маржинальности.</p></article>
+          <article class="result-card"><span>02</span><h3>Анализ SKU</h3><p>Список прибыльных, спорных и убыточных товаров.</p></article>
+          <article class="result-card"><span>03</span><h3>Рекомендации</h3><p>Что изменить в ценах, рекламе, поставках и остатках.</p></article>
+          <article class="result-card"><span>04</span><h3>План на месяц</h3><p>Приоритетные действия, которые помогут улучшить прибыль.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Как проходит работа</p>
+          <h2>Прозрачный процесс без сложной финансовой терминологии</h2>
+        </div>
+        <ol class="steps">
+          <li><span>1</span><h3>Заявка</h3><p>Вы оставляете контакты и кратко описываете ситуацию.</p></li>
+          <li><span>2</span><h3>Данные</h3><p>Мы согласуем список отчётов и нужных показателей.</p></li>
+          <li><span>3</span><h3>Расчёты</h3><p>Собираем модель и проверяем экономику продаж.</p></li>
+          <li><span>4</span><h3>Выводы</h3><p>Объясняем результаты и передаём план улучшений.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container split-grid">
+        <div class="section-heading align-left">
+          <p class="eyebrow">Когда стоит заказать</p>
+          <h2>Если оборот растёт, но денег на счёте не становится больше</h2>
+        </div>
+        <div class="signal-list">
+          <p>Реклама начала съедать маржу.</p>
+          <p>Непонятно, какие товары реально зарабатывают.</p>
+          <p>Слишком много денег заморожено в остатках.</p>
+          <p>Есть подозрение на скрытые комиссии и расходы.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-box">
+        <div>
+          <p class="eyebrow">Готовы разобраться в цифрах?</p>
+          <h2>Получите понятный анализ прибыльности вашего магазина на Wildberries</h2>
+        </div>
+        <a class="button button-primary" href="#contact">Оставить заявку</a>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading align-left">
+          <p class="eyebrow">Заявка</p>
+          <h2>Расскажите о магазине — мы предложим формат анализа</h2>
+          <p>Форма работает в демонстрационном режиме: после отправки вы увидите подтверждение на странице.</p>
+        </div>
+        <form class="contact-form" id="lead-form">
+          <label>Имя<input type="text" name="name" placeholder="Ваше имя" required></label>
+          <label>Телефон или Telegram<input type="text" name="contact" placeholder="+7 или @username" required></label>
+          <label>Оборот / количество SKU<input type="text" name="scale" placeholder="Например: 2 млн ₽, 120 SKU"></label>
+          <label>Комментарий<textarea name="message" rows="4" placeholder="Что хотите проверить в первую очередь?"></textarea></label>
+          <button class="button button-primary" type="submit">Отправить заявку</button>
+          <p class="form-message" id="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span>© 2026 WB Fin.Analytics</span>
+      <a href="#top">Наверх</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
